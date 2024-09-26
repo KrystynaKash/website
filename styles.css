@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Хедер */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.logo div{
+    width: 225px;
+    height: 45px;
+top: 57px;
+left: 102px;
+border: 1px;
+
+}
+
+.logo h1 {
+    font-size: 38px;
+    -webkit-text-stroke: #000 1px;
+    font-weight: 700px;
+    line-height: 44.53px;
+    color: #fff;
+    width: 225px;
+    height: 45px;
+    top: 57px;
+    left: 102px;
+    border: 1px;
+    position: absolute;
+}
+
+.logo span {
+    color: #000000;  
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    width: 49px;
+    height: 21px;
+    top: 65px;
+    left: 797px;
+}
+
+nav ul li {
+    
+    margin-right: 20px; 
+font-size: 18px;
+font-weight: 500;
+line-height: 21.09px;
+text-align: left;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.login-button {
+    background-color: #000;
+    background-position: top 54px left 1238px ;
+    background-size: 101px 44px;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+
+/* Головна частина */
+.main {
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #fff;
+
+}
+
+.content {
+    max-width: 654px;
+}
+
+.content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+font-size: 60px;
+font-weight: 400;
+line-height: 78.71px;
+text-align: left;
+}
+
+.content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+font-weight: 400;
+line-height: 35.4px;
+text-align: left;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+
+}
+
+.btn-secondary {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 500;
+line-height: 21.09px;
+text-align: left;
+}
+
+.image img {
+
+    width: 675.54px;
+height: 459.36px;
+top: 213px;
+left: 686px;
+gap: 0px;
+opacity: 0px;
+}
+
+/* Футер*/
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #212121;
+}
+
+footer span {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 80px;
+}
